@@ -1,0 +1,56 @@
+.cuadroSumar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 45%;
+    padding-bottom: 40px;
+    background-color: rgb(237, 242, 245);
+    border: 1px solid rgba(52, 77, 87, 0.596);
+    border-radius: 10px;
+    
+}
+
+.resultadoS{
+    font-size: 120px;
+    color: rgb(39, 55, 80);
+    margin: 0 5px;
+}
+.inputSuma{
+    display: flex;
+    align-items: center;
+}
+
+.input3 , .input4{
+    width: 56px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+  }
+
+
+
+
+  .p3{
+    font-size: 30px;
+    margin: 0 10px;
+  }
+
+
+
+
+  .sumaBoton{
+    width: 81%;
+    border-radius: 15px;
+    background-color: rgb(26, 38, 65);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-top: 30px;
+    height: 50px;
+  }
+  
+

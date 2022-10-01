@@ -1,0 +1,59 @@
+.cuadroInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tituloInputText{
+    font-size: 40px;
+    color: rgb(54, 54, 54);
+}
+
+.input5{
+    width: 200px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(194, 194, 194);
+}
+
+
+.boton1{
+    height: 40px;
+    width: 245px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(37, 41, 65);
+    border: none;
+    border-radius: 20px;
+}
+
+
+.aler2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.alerta5{
+    font-size: 18px;
+    color: rgb(255, 0, 76);
+}
+
+
+.img1{
+    /* width: 0;
+    height: 0; */
+    display: none;
+}
+
+.visible{
+    /* width: 100px;
+    width: auto; */
+    display: block;
+    width: 100px;
+}

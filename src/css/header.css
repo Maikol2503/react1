@@ -1,0 +1,60 @@
+:root{
+    --tema:#1b1b32;
+}
+
+header{
+    background-color: var(--tema);
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    color: white;
+}
+.logo li{
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    font-size: 25px;
+}
+.listaNav{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.listaNav li{
+    margin: 0 20px;
+    padding: 5px 0;
+} .listaNav li:hover{
+    border-bottom: 2px solid rgb(0, 174, 255);
+}
+
+
+
+.logoImg {
+    animation: App-logo-spin infinite 20s linear;
+    width: 100px;
+    margin-left: -30px;
+}
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
