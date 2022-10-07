@@ -1,6 +1,4 @@
-##link
-
-https://maikol2503.github.io/react1/
+# https://maikol2503.github.io/react1/
 
 # Getting Started with Create React App
 
